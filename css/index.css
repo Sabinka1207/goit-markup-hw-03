@@ -78,8 +78,9 @@
 .our-team {
     text-align: center;
 }
+
 .what-are-we-doing img {
-    width: calc(100% / 3-30);
+    width: calc(100% / 3 - 30px);
     margin-right: 30px;
 }
 
@@ -98,13 +99,17 @@
 }
 
 .our-team li {
-    width: calc(100% / 4-30);
+    width: calc(100% / 4 - 30px);
     margin-right: 30px;
     background-color: var(--white);
 }
 
 .our-team li:last-child {
     margin-right: 0px;
+}
+
+.our-team img {
+    width: 100%;
 }
 
 .our-team h3 {
